@@ -1,0 +1,15 @@
+{
+  "name": "emailscraper",
+  "version": "1.0.0",
+  "description": "A simple Script to extract emails from google search",
+  "main": "runMe.sh",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arjan Aswal",
+  "license": "MIT",
+  "dependencies": {
+    "google-it": "^1.5.0",
+    "fs": "^0.0.1-security"
+  }
+}
