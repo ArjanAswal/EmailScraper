@@ -5,12 +5,13 @@ Please don't use it to abuse or spam.
 Installation : 
 
 git clone https://github.com/ArjanAswal/EmailScraper
+
 cd EmailScraper
 npm install
 bash EmailScraper.sh
 
 Prerequisites:
-node js 
+node js
 npm
 VPN
 
