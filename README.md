@@ -1,6 +1,6 @@
 <h1>EmailScraper</h1>
 <br>
-A powerful nodejs powered bash script that queries Google for specific keywords and then scrapes the results and outputs the email addresses associated with it. The results will be saved in a text file in Results folder.
+A powerful nodejs backed bash script that queries Google for specific keywords and then scrapes the results and outputs the email addresses associated with it. The results will be saved in a text file in Results folder.
 
 
 <b>Please don't use it to abuse or spam.</b>
