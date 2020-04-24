@@ -1,8 +1,8 @@
 {
-  "name": "emailscraper",
+  "name": "EmailScraper",
   "version": "1.0.0",
   "description": "A simple Script to extract emails from google search",
-  "main": "runMe.sh",
+  "main": "EmailScraper.sh",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
