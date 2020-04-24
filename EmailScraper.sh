@@ -1,4 +1,5 @@
 mkdir TEMP__DUMP && mkdir Result
+
 clear
 figlet EmailScraper
 
