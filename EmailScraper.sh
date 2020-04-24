@@ -15,7 +15,7 @@ arr[2]='Actor'
 elif [ $choice = '2' ]
 then
 
-echo Enter the profiles and write stop when finished [eg: CEO, Blogger etc]
+echo Enter the profiles and write stop and press enter when finished [eg: CEO, Blogger etc]
 
 IFS=''
 
