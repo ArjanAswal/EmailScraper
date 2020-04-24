@@ -6,13 +6,13 @@ Installation :
 
 git clone https://github.com/ArjanAswal/EmailScraper
 
-cd EmailScraper
-npm install
-bash EmailScraper.sh
+cd EmailScraper\
+npm install\
+bash EmailScraper.sh\
 
-Prerequisites:
-node js
-npm
-VPN
+Prerequisites:\
+node js\
+npm\
+VPN\
 
 Note: IP address needs to be changed after a specific query otherwise Google will block your queries and you will get no results. The script will prompt you for it. Please don't use it for spamming.
