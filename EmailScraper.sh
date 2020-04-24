@@ -1,3 +1,4 @@
+mkdir TEMP__DUMP && mkdir Result
 clear
 figlet EmailScraper
 
@@ -7,16 +8,13 @@ read choice
 
 if [ $choice = '1' ]
 then
-
 arr[0]='Blogger'
 arr[1]='Writer'
 arr[2]='Actor'
-
-
 elif [ $choice = '2' ]
 then
-echo Enter the profiles and write stop when finished
 
+echo Enter the profiles and write stop when finished [eg: CEO, Blogger etc]
 
 IFS=''
 
@@ -41,6 +39,8 @@ do
 # VPN Code from Command Line and comment the 2 lines below
 echo please change your IP address and then press 'enter' to resume
 read resume
+
+echo Scraping for query : "$profile"
 
 sudo node app.js "$profile"
 sudo node extract.js "$profile"
